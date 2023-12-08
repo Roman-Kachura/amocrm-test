@@ -1,1 +1,1 @@
-[Ссылка на задеплоенный проект:](https://amocrm-test.onrender.com/)
+[Ссылка на задеплоенный проект:](https://amocrm-testing.netlify.app/)
