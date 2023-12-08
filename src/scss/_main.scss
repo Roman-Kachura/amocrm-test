@@ -99,7 +99,7 @@
   margin-top: 2rem;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (min-width: 320px) and (max-width: 890px){
   .main {
     justify-content: start;
     flex-direction: column;
@@ -161,7 +161,7 @@
     position: relative;
   }
 
-  .services__list-item_mobile:before{
+  .services__list-item_mobile:before {
     content: '';
     display: block;
     width: 1rem;
@@ -172,5 +172,16 @@
     top: 0;
     bottom: 0;
     margin: auto 0;
+  }
+}
+
+@media screen and (min-width: 891px) and (max-width: 1439px) {
+  .main {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .services__button {
+    display: flex;
   }
 }
